@@ -10,6 +10,7 @@ EnvironmentFile=-@sysconfdir@/default/pcscd
 User=pcscd
 RuntimeDirectory=pcscd
 RuntimeDirectoryPreserve=true
+PIDFile=@ipcdir@/pcscd.pid
 
 # Paths
 ProtectProc=invisible
